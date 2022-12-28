@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style:none;
 }
 body {
     background-color: #ffffffff;
     font-family: "Inter", sans-serif;
     text-decoration: none;
-    
 }
 .container {
     max-width: 1200px;

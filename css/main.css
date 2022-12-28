@@ -1,4 +1,4 @@
-@import "/css/reset.css";
+@import "css/reset.css";
 
 * {
     margin: 0;
@@ -8,6 +8,7 @@
 body {
     background-color: #ffffffff;
     font-family: "Inter", sans-serif;
+    text-decoration: none;
     
 }
 .container {

@@ -12,6 +12,7 @@ body {
 }
 .container {
     max-width: 1200px;
+    height: 600px;
     margin: 15px auto;
     padding: 0 60px;
     background-color: #f7f3eaef;

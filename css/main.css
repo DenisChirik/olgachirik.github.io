@@ -100,3 +100,27 @@ body {
 span {
     color: #6AC8D2;
 }
+
+.works_title {
+    color: #7a480e;
+    font-weight: 500;
+    padding-top: 50px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+.services {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.card_info {
+    color: #7a480e;
+    width: 220px;
+    height: 220px;
+    border-radius: 0 10px 0 10px; 
+    border: 3px solid #6AC8D2; 
+    box-shadow: 10px 10px 5px #999999; 
+    text-align: justify;
+    padding: 10px;
+}

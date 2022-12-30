@@ -60,7 +60,7 @@ body {
 .olga_photo {
     position: absolute;
     margin-top: 5px;
-    background: url("/img/Background_photo.jpg");
+    background: url("img/Background_photo.jpg");
     background-size: no-repeat;
     background-position: center;
     background-size: cover;

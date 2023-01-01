@@ -44,14 +44,14 @@ body {
     transform: scale(1.1);
 }
 .menu_item_contacts {
-    outline-width: 1.5px;
+    outline-width: 2px;
     outline-style:solid;
     outline-color: #6AC8D2;
     border-radius: 4px;
     padding: 8px 13px; 
 }
 .menu_item_contacts:hover {
-    outline-width: 2.5px;
+    outline-width: 3px;
 }
 .hero {
     position: relative;
@@ -126,4 +126,10 @@ span {
     text-align: justify;
     padding: 50px 10px 10px 10px;
     text-align: center;
+}
+.card_info:hover {
+    outline: 2px solid #6AC8D2; 
+}
+.search_img {
+    margin-bottom: 30px;
 }

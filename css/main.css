@@ -8,6 +8,7 @@
 body {
     background-color: #ffffffff;
     font-family: "Inter", sans-serif;
+    color: #7a480e;
     text-decoration: none;
 }
 .container {
@@ -125,4 +126,16 @@ span {
 }
 .search_img {
     margin-bottom: 30px;
+}
+.clients_review {
+    max-width: 1200px;
+    height: 400px;
+    margin: 15px auto;
+    padding: 0 60px;
+    background-color: #f7f3eaef;
+}
+.review_title {
+    font-weight: 500;
+    padding-top: 40px;
+    
 }

@@ -8,6 +8,7 @@
 body {
     background-color: #ffffffff;
     font-family: "Inter", sans-serif;
+    font-size: 16px;
     color: #7a480e;
     text-decoration: none;
 }
@@ -47,7 +48,7 @@ body {
 .menu_item_contacts {
     outline-width: 2px;
     outline-style:solid;
-    outline-color: #6AC8D2;
+    outline-color: #2bbece;
     border-radius: 4px;
     padding: 8px 13px; 
 }
@@ -64,14 +65,14 @@ body {
     margin-top: 0px;
     opacity: 0.8;
     border-radius: 0 10px 0 10px; 
-    outline: 4px solid #6AC8D2; 
+    outline: 4px solid #2bbece; 
     box-shadow: 10px 10px 5px #999999;  
     width: 400px;
-    height: 550px;
+    height: 590px;
 }
 .olga_photo:hover{
     opacity: 1;
-    outline: 5px solid #6AC8D2; 
+    outline: 5px solid #2bbece; 
 }
 .hero_targeting {
     font-size: 26px;
@@ -80,20 +81,73 @@ body {
     margin-bottom: 60px;
 }
 .hero_title {
+    text-indent: 7%;
     color: #7a480e;
     font-weight: 500;
     line-height: 1.5;
     text-align: justify;
     margin-top: 50px;
     margin-bottom: 50px;
-    font-size: 20px;
+    font-size: 22px;
     padding-bottom: 30px;
     margin-left: 450px;
 }
 
 span {
-    color: #6AC8D2;
+    
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    background: -webkit-linear-gradient(left, #2bbece, #349ce0, #0877b8, #349ce0, #2bbece);
+    background: linear-gradient(left,  #2bbece, #349ce0, #0877b8, #349ce0, #2bbece);
+    background-size: 3200px 200px;
+    margin-top: 22vh;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: animate-logo;
+    -webkit-animation-delay: 0;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: forwards;
+    transition: font-size 500ms ease-in-out;
+    }
+   
+   @media only screen and (min-width: 40.063em) {
+    span {
+    margin-top: 30vh;
+         }
+   }
+   @media only screen and (min-width: 64.063em) {
+    span {
+    margin-top: 25vh;
+         }
+   }
+   @media only screen and (min-width: 90.063em) {
+    span {
+    margin-top: 20vh;
+         }
+   }
+   @media only screen and (min-width: 120.063em) {
+    span {
+    margin-top: 15vh;
+        }
+   }
+   @-webkit-keyframes animate-logo {
+    0% {
+    background-position: 0 3200px;
+    }
+    100% {
+    background-position: 3200px 0;
+    }
+   }
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
 }
+
 
 .works_title {
     color: #7a480e;
@@ -115,14 +169,14 @@ span {
     width: 220px;
     height: 220px;
     border-radius: 0 10px 0 10px; 
-    border: 3px solid #6AC8D2; 
+    border: 3px solid #2bbece; 
     box-shadow: 10px 10px 5px #999999; 
     text-align: justify;
     padding: 50px 10px 10px 10px;
     text-align: center;
 }
 .card_info:hover {
-    outline: 2px solid #6AC8D2; 
+    outline: 2px solid #2bbece; 
 }
 .search_img {
     margin-bottom: 30px;
@@ -138,4 +192,38 @@ span {
     font-weight: 500;
     padding-top: 40px;
     
+}
+.contacts_main {
+    max-width: 1200px;
+    height: 500px;
+    margin: 15px auto;
+    padding: 0 60px;
+    background-color: #f7f3eaef;
+}
+.contacts_title {
+    margin-left: 610px;
+    font-weight: 500;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.contacts_block {
+    color: #7a480e;
+    width: 600px;
+    height: 220px;
+    border-radius: 0 10px 0 10px; 
+    border: 3px solid #2bbece; 
+    box-shadow: 10px 10px 5px #999999; 
+    text-align: justify;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+.contacts_block:hover {
+    outline: 2px solid #2bbece; 
+}
+.contacts_block {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
 }

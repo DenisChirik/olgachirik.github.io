@@ -11,6 +11,14 @@ body {
     font-size: 16px;
     color: #7a480e;
     text-decoration: none;
+    background-image: url(/img/Bckgrnd/stock-photo-wooden-table-top-with-the-mountain-landscape-652110877\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p {
+    text-indent: 7%;
 }
 .container {
     max-width: 1200px;
@@ -49,7 +57,7 @@ body {
 .menu_item_contacts {
     outline-width: 2px;
     outline-style:solid;
-    outline-color: #2bbece;
+    outline-color: #15b122;
     border-radius: 4px;
     padding: 8px 13px; 
 }
@@ -66,7 +74,7 @@ body {
     margin-top: 0px;
     opacity: 0.85;
     border-radius: 0 10px 0 10px; 
-    outline: 4px solid #2bbece; 
+    outline: 4px solid #15b122; 
     box-shadow: 10px 10px 5px #999999; 
     overflow: hidden; 
     transition: transform 0.5s;
@@ -76,7 +84,7 @@ body {
 .olga_photo:hover{
     opacity: 1;
     transform: scale(1.05);
-    outline: 5px solid #2bbece; 
+    outline: 5px solid #15b122; 
 }
 .hero_targeting {
     font-size: 26px;
@@ -85,7 +93,6 @@ body {
     margin-bottom: 60px;
 }
 .hero_title {
-    text-indent: 7%;
     color: #7a480e;
     font-weight: 500;
     line-height: 1.5;
@@ -96,14 +103,27 @@ body {
     padding-bottom: 30px;
     margin-left: 450px;
 }
+.hero_title_consalt {
+    color: #7a480e;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-left: 450px;
+    outline-width: 2px;
+    outline-style:solid;
+    outline-color: #15b122;
+    border-radius: 4px;
+    padding: 8px 13px; 
+}
 
 span {
     
     font-weight: 500;
     font-family: "Inter", sans-serif;
     text-align: center;
-    background: -webkit-linear-gradient(left, #2bbece, #349ce0, #0877b8, #349ce0, #2bbece);
-    background: linear-gradient(left,  #2bbece, #349ce0, #0877b8, #349ce0, #2bbece);
+    background: -webkit-linear-gradient(left, #1d9126, #188b18, #056405, #117222, #138345);
+    background: linear-gradient(left, #1d9126, #188b18, #056405, #117222, #138345);
     background-size: 3200px 200px;
     margin-top: 22vh;
     color: transparent;
@@ -173,14 +193,14 @@ span {
     width: 220px;
     height: 220px;
     border-radius: 0 10px 0 10px; 
-    border: 3px solid #2bbece; 
+    border: 3px solid #15b122; 
     box-shadow: 10px 10px 5px #999999; 
     text-align: justify;
     padding: 50px 10px 10px 10px;
     text-align: center;
 }
 .card_info:hover {
-    outline: 2px solid #2bbece; 
+    outline: 2px solid #15b122; 
 }
 .search_img {
     margin-bottom: 30px;
@@ -214,14 +234,14 @@ span {
     width: 600px;
     height: 220px;
     border-radius: 0 10px 0 10px; 
-    border: 3px solid #2bbece; 
+    border: 3px solid #15b122; 
     box-shadow: 10px 10px 5px #999999; 
     text-align: justify;
     padding: 10px 10px 10px 10px;
     text-align: center;
 }
 .contacts_block:hover {
-    outline: 2px solid #2bbece; 
+    outline: 2px solid #15b122; 
 }
 .contacts_block {
     align-items: left;
@@ -252,7 +272,7 @@ span {
     margin: 15px auto;
     padding: 0 60px;
     background-color: #f0e1c0ef;
-    border: solid 1px #0877b8;
+    border: solid 1px #15b122;
 }
 .developer_title {
     font-weight: 500;

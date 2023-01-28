@@ -7,12 +7,11 @@
 }
 body {
     background-color: #ffffffff;
-    font-family: "Inter", sans-serif;
+    font-family: "Philosopher", sans-serif;
     font-size: 16px;
     color: #7a480e;
     text-decoration: none;
-    background-image: url(/img/Bckgrnd/stock-photo-wooden-table-top-with-the-mountain-landscape-652110877\ \(1\).jpg);
-    background-repeat: no-repeat;
+    background-image: url(/img/Bckgrnd/BCKG_3.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -73,9 +72,9 @@ p {
     position: absolute;
     margin-top: 0px;
     opacity: 0.85;
-    border-radius: 0 10px 0 10px; 
+    border-radius: 30px; 
     outline: 4px solid #15b122; 
-    box-shadow: 10px 10px 5px #999999; 
+    box-shadow: 10px 10px 7px #6b6969; 
     overflow: hidden; 
     transition: transform 0.5s;
     width: 400px;
@@ -88,6 +87,7 @@ p {
 }
 .hero_targeting {
     font-size: 26px;
+    letter-spacing: 3px;
     color: #7a480e;
     padding-top: 50px;
     margin-bottom: 60px;
@@ -113,9 +113,11 @@ p {
 .button {
     min-width: 300px;
     min-height: 60px;
-    font-family: "Inter", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-family: "Philosopher", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
     color: #7a480e;
     background: #15b122;
     background: linear-gradient(90deg, rgb(132, 230, 129) 0%, rgb(79, 209, 79) 100%);

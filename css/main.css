@@ -45,12 +45,13 @@ p {
 .menu_link {
     display:inline-block;
     color: #7a480e;
-    opacity: 0.7;
+    opacity: 0.8;
     transition: transform 1.5s ;
 }
 .menu_link:hover {
     opacity: 1;
     transform: scale(1.1);
+    color:#15b122
 }
 .menu_item_contacts {
     outline-width: 2px;
@@ -222,7 +223,7 @@ p {
 }
 .clients_review {
     max-width: 1100px;
-    height: 400px;
+    height: 500px;
     margin: 15px auto;
     padding: 0 60px;
     background-color: #f7f3eaef;
@@ -231,6 +232,28 @@ p {
     font-weight: 500;
     padding-top: 40px;
 }
+.reviewblock {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.review_photo {
+    opacity: 0.85;
+    border-radius: 20px; 
+    outline: 4px solid #15b122; 
+    box-shadow: 10px 10px 7px #6b6969; 
+    overflow: hidden; 
+    transition: transform 0.5s;
+    width: 260px;
+    height: 360px;
+}
+.review_photo:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    outline: 5px solid #15b122; 
+}
 .contacts_main {
     max-width: 1100px;
     height: 500px;
@@ -238,6 +261,7 @@ p {
     padding: 0 60px;
     background-color: #f7f3eaef;
 }
+
 .contacts_title {
     margin-left: 560px;
     font-weight: 500;
@@ -299,6 +323,10 @@ p {
 .icon {
     display: inline-block;
     animation: float 2.5s ease-in-out infinite;
+    filter:grayscale(100%);
+}
+.icon:hover {
+    filter: grayscale(0%);
 }
 .viber_img {
     animation-delay: 0.5s;

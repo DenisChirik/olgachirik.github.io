@@ -63,6 +63,12 @@ p {
 .menu_item_contacts:hover {
     outline-width: 3px;
 }
+.Olga_logo {
+    margin-right: 420px;
+    color: #F17F67;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1.4px;
+}
 .hero {
     position: relative;
     width: 100%;
@@ -129,7 +135,6 @@ p {
     position: relative;
     padding: 5px;
 }
-
 .button_consalt::before {
   content: '';
     border-radius: 15px;
@@ -143,18 +148,16 @@ p {
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: all .3s ease-in-out 0s; 
-}
-  
+} 
 .button_consalt:hover, button_consalt:focus {
     color: #313133;
     transform: translateY(-6px);
-  }
-  
-  .button_consalt:hover::before, .button_consalt:focus::before {
+}
+.button_consalt:hover::before, .button_consalt:focus::before {
     opacity: 1;
-  }
+}
   
-  .button_consalt::after {
+.button_consalt::after {
     content: '';
     width: 30px; height: 30px;
     border-radius: 100%;
@@ -165,13 +168,13 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     animation: ring 2.5s infinite;
-  }
+}
   
-  .button_consalt:hover::after, .button_consalt:focus::after {
+.button_consalt:hover::after, .button_consalt:focus::after {
     animation: none;
     display: none;
-  }
-  
+}
+ 
   @keyframes ring {
     0% {
       width: 30px;
@@ -261,7 +264,6 @@ p {
     padding: 0 60px;
     background-color: #f7f3eaef;
 }
-
 .contacts_title {
     margin-left: 560px;
     font-weight: 500;
@@ -310,15 +312,19 @@ p {
     height: 100px;
     margin: 15px auto;
     padding: 0 60px;
-    background-color: #ece5d5ef;
     border: solid 1px #15b122;
+    background-image: linear-gradient(to right, rgba(43, 80, 42, 0.7), rgba(86, 105, 74, 0.7)), url('../img/Bckgrnd/BCKG_4.png');
+    background-size: 1100px 100px ;
+    background-repeat: no-repeat;
+   
 }
 .developer_title {
     font-weight: 500;
-    font-size: 18px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
+    font-size: 14px;
+    color:#fff;
+    padding-top: 70px;
+    margin-left: 650px;
+    text-align: right;
 }
 .icon {
     display: inline-block;
@@ -408,7 +414,6 @@ span {
         0% { background-position: 0% 50%; }
         100% { background-position: 100% 50%; }
     }
-
     #myBtn {
         display: none; /* Hidden by default */
         position: fixed; /* Fixed/sticky position */
@@ -424,7 +429,6 @@ span {
         border-radius: 10px; /* Rounded corners */
         font-size: 18px; /* Increase font size */
     }
-    
     #myBtn:hover {
         background-color: #f7f3eaef; /* Add a dark-grey background on hover */
         color: #7a480e;
